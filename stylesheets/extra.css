@@ -1,0 +1,26 @@
+[data-md-color-scheme="slate"] {
+  /* EB colours - main logo colours */
+  --eb-blue:   #94BDCF;
+  --eb-green:  #A8BD90;
+  --eb-red:    #B2666C;
+
+  --md-primary-fg-color:             #1c1e26;
+  --md-default-bg-color:             #2F343F;
+
+  --md-typeset-a-color:              var(--eb-blue);
+  --md-accent-fg-color:              var(--eb-green);
+}
+[data-md-color-scheme="default"] {
+  /* EB colours - main logo border colours */
+  --eb-blue:  #72a4b0;
+  --eb-blue-dark:  #538693;  /* darker variant of blue in logo */
+  --eb-green: #8ca379;
+  --eb-green-dark: #71895d;
+  --eb-red:   #ab5860;
+  --eb-red-dark:   #88444b;
+
+  --md-primary-fg-color:             #1c1e26;
+
+  --md-typeset-a-color:              var(--eb-blue-dark);
+  --md-accent-fg-color:              var(--eb-green-dark);
+}
